@@ -1,0 +1,109 @@
+/* Asegúrate de que el fondo ocupe toda la pantalla */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #375a99, #01112c);
+}
+
+/* Centra el contenido y ajusta el fondo */
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.App-header {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+  background: linear-gradient(to right, #f32e2e, #feb47b);
+  color: white;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #feb47b, #f32e2e);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+li span {
+  flex-grow: 1;
+  text-align: center;
+  padding-right: 10px;
+}
+
+li.completed span {
+  text-decoration: line-through;
+}
+
+span {
+  cursor: pointer;
+}
+
+li button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: linear-gradient(to right, #f32e2e, #feb47b);
+  color: white;
+  font-size: 12px;
+  transition: background 0.3s ease;
+}
+
+li button:hover {
+  background: linear-gradient(to right, #feb47b, #f32e2e);
+}
