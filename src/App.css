@@ -1,4 +1,3 @@
-/* Asegúrate de que el fondo ocupe toda la pantalla */
 body,
 html {
   margin: 0;
@@ -8,7 +7,6 @@ html {
   background: linear-gradient(to right, #375a99, #01112c);
 }
 
-/* Centra el contenido y ajusta el fondo */
 .App {
   display: flex;
   align-items: center;
